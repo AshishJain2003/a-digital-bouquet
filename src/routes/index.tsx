@@ -1,22 +1,22 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef } from "react";
 
-import fDaisy from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.53.jpg.asset.json";
-import fBougainvillea from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.54.jpg.asset.json";
-import fIxoraPink from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56.jpg.asset.json";
-import fIxoraPale from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_1.jpg.asset.json";
-import fOleander from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_2.jpg.asset.json";
-import fRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_3.jpg.asset.json";
-import fIxoraRed from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.55.jpg.asset.json";
-import fJatropha from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.55_1.jpg.asset.json";
-import fWhiteRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57_1.jpg.asset.json";
-import fLantana from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57_2.jpg.asset.json";
-import fPinkRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57.jpeg.asset.json";
-import fGardenia from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_1.jpeg.asset.json";
-import fPlumeria from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_2.jpeg.asset.json";
-import fCanna from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_3.jpeg.asset.json";
-import fDesertRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58.jpeg.asset.json";
-import fOleanderHand from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.59.jpeg.asset.json";
+import fDaisy from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.53.jpg";
+import fBougainvillea from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.54.jpg";
+import fIxoraPink from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56.jpg";
+import fIxoraPale from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_1.jpg";
+import fOleander from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_2.jpg";
+import fRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_3.jpg";
+import fIxoraRed from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.55.jpg";
+import fJatropha from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.55_1.jpg";
+import fWhiteRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57_1.jpg";
+import fLantana from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57_2.jpg";
+import fPinkRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57.jpeg";
+import fGardenia from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_1.jpeg";
+import fPlumeria from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_2.jpeg";
+import fCanna from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_3.jpeg";
+import fDesertRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58.jpeg";
+import fOleanderHand from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.59.jpeg";
 
 const flowers = [
   fRose,
@@ -104,7 +104,7 @@ function Index() {
         <div className="reveal mt-16" style={{ animationDelay: "0.2s" }}>
           <div className="bloom overflow-hidden rounded-full border-4 border-card shadow-2xl">
             <img
-              src={fRose.url}
+              src={fRose}
               alt="Birthday flower"
               className="h-48 w-48 object-cover sm:h-64 sm:w-64"
             />
@@ -116,12 +116,12 @@ function Index() {
         <div className="columns-1 gap-4 sm:columns-2 lg:columns-3">
           {flowers.map((img, i) => (
             <div
-              key={img.asset_id}
+              key={img}
               className="reveal mb-4 break-inside-avoid overflow-hidden rounded-2xl border border-border bg-card shadow-sm"
               style={{ animationDelay: `${(i % 3) * 0.1}s` }}
             >
               <img
-                src={img.url}
+                src={img}
                 alt="Birthday flower"
                 loading="lazy"
                 className="w-full object-cover transition-transform duration-700 hover:scale-105"
@@ -134,7 +134,7 @@ function Index() {
       <footer className="relative flex min-h-[60vh] flex-col items-center justify-center px-6 text-center">
         <div className="reveal bloom overflow-hidden rounded-full border-4 border-card shadow-2xl">
           <img
-            src={fPinkRose.url}
+            src={fPinkRose}
             alt="Birthday flower"
             className="h-40 w-40 object-cover sm:h-52 sm:w-52"
           />
