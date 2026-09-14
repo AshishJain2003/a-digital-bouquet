@@ -104,7 +104,7 @@ function Index() {
         <div className="reveal mt-16" style={{ animationDelay: "0.2s" }}>
           <div className="bloom overflow-hidden rounded-full border-4 border-card shadow-2xl">
             <img
-              src={fRose.url}
+              src={fRose}
               alt="Birthday flower"
               className="h-48 w-48 object-cover sm:h-64 sm:w-64"
             />
@@ -121,7 +121,7 @@ function Index() {
               style={{ animationDelay: `${(i % 3) * 0.1}s` }}
             >
               <img
-                src={img.url}
+                src={img}
                 alt="Birthday flower"
                 loading="lazy"
                 className="w-full object-cover transition-transform duration-700 hover:scale-105"
@@ -134,7 +134,7 @@ function Index() {
       <footer className="relative flex min-h-[60vh] flex-col items-center justify-center px-6 text-center">
         <div className="reveal bloom overflow-hidden rounded-full border-4 border-card shadow-2xl">
           <img
-            src={fPinkRose.url}
+            src={fPinkRose}
             alt="Birthday flower"
             className="h-40 w-40 object-cover sm:h-52 sm:w-52"
           />
