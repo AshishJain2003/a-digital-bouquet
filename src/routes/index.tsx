@@ -106,7 +106,7 @@ function Index() {
         <div className="reveal mt-14" style={{ animationDelay: "0.45s" }}>
           <div className="bloom overflow-hidden rounded-full border-4 border-card shadow-2xl" style={{ animationDelay: "0.5s" }}>
             <img
-              src={fRose.img ? fRose.url : fRose.url}
+              src={fRose.url}
               alt="A red rose, grown and photographed just for you"
               className="h-44 w-44 object-cover sm:h-56 sm:w-56"
             />
