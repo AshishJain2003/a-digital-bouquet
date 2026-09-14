@@ -116,7 +116,7 @@ function Index() {
         <div className="columns-1 gap-4 sm:columns-2 lg:columns-3">
           {flowers.map((img, i) => (
             <div
-              key={img.asset_id}
+              key={img}
               className="reveal mb-4 break-inside-avoid overflow-hidden rounded-2xl border border-border bg-card shadow-sm"
               style={{ animationDelay: `${(i % 3) * 0.1}s` }}
             >
