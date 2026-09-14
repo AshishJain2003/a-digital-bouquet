@@ -96,7 +96,7 @@ function Index() {
       <Petals />
 
       <header className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center">
-        <h1 className="reveal font-serif-display max-w-4xl text-6xl leading-[1.05] font-medium text-foreground sm:text-8xl">
+        <h1 className="reveal font-serif-display max-w-4xl text-6xl leading-[1.05] font-semibold text-plum sm:text-8xl">
           Happy
           <br />
           <em className="text-primary">Birthday</em>
@@ -110,9 +110,6 @@ function Index() {
             />
           </div>
         </div>
-        <p className="reveal mt-16 text-xs tracking-[0.3em] text-muted-foreground uppercase" style={{ animationDelay: "0.4s" }}>
-          Scroll ↓
-        </p>
       </header>
 
       <section className="relative mx-auto max-w-7xl px-4 pb-32 sm:px-6">
