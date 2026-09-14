@@ -139,9 +139,6 @@ function Index() {
             className="h-40 w-40 object-cover sm:h-52 sm:w-52"
           />
         </div>
-        <p className="reveal mt-10 font-serif-display text-4xl text-foreground sm:text-5xl">
-          🌸
-        </p>
       </footer>
     </div>
   );
