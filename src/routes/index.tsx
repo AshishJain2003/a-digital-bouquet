@@ -11,18 +11,30 @@ import fIxoraRed from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.55.j
 import fJatropha from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.55_1.jpg.asset.json";
 import fWhiteRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57_1.jpg.asset.json";
 import fLantana from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57_2.jpg.asset.json";
+import fPinkRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57.jpeg.asset.json";
+import fGardenia from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_1.jpeg.asset.json";
+import fPlumeria from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_2.jpeg.asset.json";
+import fCanna from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_3.jpeg.asset.json";
+import fDesertRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58.jpeg.asset.json";
+import fOleanderHand from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.59.jpeg.asset.json";
 
 const flowers = [
-  { img: fIxoraRed, name: "Red Ixora", note: "for the warmth you bring into every one of my days" },
-  { img: fBougainvillea, name: "Bougainvillea", note: "bright and unstoppable, just like you" },
-  { img: fRose, name: "The Red Rose", note: "because some feelings never needed new words" },
-  { img: fWhiteRose, name: "White Rose", note: "for the calm I feel whenever I think of you" },
-  { img: fLantana, name: "Lantana", note: "little suns, for the girl who lights up everything" },
-  { img: fJatropha, name: "Peregrina", note: "a rare bloom for the rarest person I know" },
-  { img: fIxoraPink, name: "Pink Ixora", note: "soft, sweet, and impossible to forget" },
-  { img: fOleander, name: "Oleander", note: "grace that turns an ordinary street into a garden" },
-  { img: fIxoraPale, name: "Blush Ixora", note: "the colour your name paints on my cheeks" },
-  { img: fDaisy, name: "Little Sun", note: "one small flower, one enormous smile" },
+  { img: fIxoraRed, name: "Red Ixora", note: "for the warmth you bring into random, ordinary days" },
+  { img: fBougainvillea, name: "Bougainvillea", note: "bright and unstoppable, like your energy when you get excited" },
+  { img: fRose, name: "The Red Rose", note: "because some people just deserve the classic ones" },
+  { img: fWhiteRose, name: "White Rose", note: "for the calm, steady vibe of our conversations" },
+  { img: fLantana, name: "Lantana", note: "little bursts of colour, like your best ideas" },
+  { img: fJatropha, name: "Peregrina", note: "a rare bloom for a friend who actually gets me" },
+  { img: fIxoraPink, name: "Pink Ixora", note: "soft, sweet, and hard to ignore — basically you" },
+  { img: fOleander, name: "Oleander", note: "grace that turns an ordinary street into something worth sharing" },
+  { img: fIxoraPale, name: "Blush Ixora", note: "the colour of every 'you're not gonna believe this' story" },
+  { img: fDaisy, name: "Little Sun", note: "one small flower, one big smile — your kind of math" },
+  { img: fPinkRose, name: "Pink Rose", note: "for the friend who makes distance feel smaller" },
+  { img: fGardenia, name: "Gardenia", note: "quiet and lovely, like the late-night talks I actually look forward to" },
+  { img: fPlumeria, name: "Pink Plumeria", note: "tropical, bold, and impossible to forget" },
+  { img: fCanna, name: "Canna Lily", note: "for the fire you carry without even trying" },
+  { img: fDesertRose, name: "Desert Rose", note: "proof that beautiful things can grow anywhere" },
+  { img: fOleanderHand, name: "Oleander in Hand", note: "the closest thing to handing you flowers through a screen" },
 ];
 
 const petals = Array.from({ length: 14 }, (_, i) => ({
@@ -94,14 +106,14 @@ function Index() {
         >
           Happy Birthday,
           <br />
-          <em className="text-primary">my love</em>
+          <em className="text-primary">my bestie</em>
         </h1>
         <p
           className="reveal mt-8 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg"
           style={{ animationDelay: "0.3s" }}
         >
-          We haven't met yet — so until I can hand these to you in person,
-          I grew you a garden out of photographs and everything I couldn't say out loud.
+          We haven't met yet — so until I can actually hand these to you,
+          I built you a garden out of photos and everything I would've said in person.
         </p>
         <div className="reveal mt-14" style={{ animationDelay: "0.45s" }}>
           <div className="bloom overflow-hidden rounded-full border-4 border-card shadow-2xl" style={{ animationDelay: "0.5s" }}>
@@ -122,12 +134,12 @@ function Index() {
         <div className="reveal">
           <span className="font-serif-display text-6xl text-petal">❝</span>
           <p className="font-serif-display -mt-4 text-2xl leading-relaxed text-foreground italic sm:text-3xl">
-            Every flower here was real. I found them, stopped, and thought of you —
+            Every flower here was real. I saw it, stopped, and thought of you —
             each one a small wish for your year ahead. Distance kept my hands empty today,
             so I filled your screen instead.
           </p>
           <p className="mt-8 text-sm font-semibold tracking-[0.25em] text-primary uppercase">
-            — yours, always
+            — your friend, always
           </p>
         </div>
       </section>
@@ -136,7 +148,7 @@ function Index() {
       <section className="relative mx-auto max-w-6xl px-6 pb-32">
         <div className="reveal mb-16 text-center">
           <h2 className="font-serif-display text-4xl font-medium text-foreground sm:text-5xl">
-            Ten blooms, ten reasons
+            Sixteen blooms, sixteen reasons
           </h2>
           <p className="mt-4 text-muted-foreground">
             each one picked the moment it reminded me of you
@@ -153,7 +165,7 @@ function Index() {
               <div className="overflow-hidden rounded-3xl border border-border bg-card shadow-sm transition-shadow duration-500 group-hover:shadow-xl">
                 <img
                   src={f.img.url}
-                  alt={`${f.name} — a flower photographed for her birthday`}
+                  alt={`${f.name} — a flower photographed for your birthday`}
                   loading="lazy"
                   className="aspect-[3/4] w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
@@ -185,7 +197,7 @@ function Index() {
             <span className="h-px w-12 bg-border" />
           </div>
           <p className="mt-6 text-xs tracking-[0.3em] text-muted-foreground uppercase">
-            made with love, across the miles
+            made for my best friend, across the miles
           </p>
         </div>
       </footer>
@@ -196,16 +208,16 @@ function Index() {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Happy Birthday, My Love — A Garden For You" },
+      { title: "Happy Birthday, Bestie — A Garden For You" },
       {
         name: "description",
         content:
-          "A birthday garden of real flowers, photographed and sent across the miles — ten blooms, ten reasons, all for her.",
+          "A birthday garden of real flowers, photographed and sent across the miles — sixteen blooms, sixteen reasons, all for my best friend.",
       },
-      { property: "og:title", content: "Happy Birthday, My Love — A Garden For You" },
+      { property: "og:title", content: "Happy Birthday, Bestie — A Garden For You" },
       {
         property: "og:description",
-        content: "Ten real flowers, photographed just for her birthday. A garden sent across the miles.",
+        content: "Sixteen real flowers, photographed just for my best friend's birthday. A garden sent across the miles.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
