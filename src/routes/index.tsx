@@ -1,22 +1,22 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef } from "react";
 
-import fDaisy from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.53.jpg.asset.json";
-import fBougainvillea from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.54.jpg.asset.json";
-import fIxoraPink from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56.jpg.asset.json";
-import fIxoraPale from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_1.jpg.asset.json";
-import fOleander from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_2.jpg.asset.json";
-import fRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_3.jpg.asset.json";
-import fIxoraRed from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.55.jpg.asset.json";
-import fJatropha from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.55_1.jpg.asset.json";
-import fWhiteRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57_1.jpg.asset.json";
-import fLantana from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57_2.jpg.asset.json";
-import fPinkRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57.jpeg.asset.json";
-import fGardenia from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_1.jpeg.asset.json";
-import fPlumeria from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_2.jpeg.asset.json";
-import fCanna from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_3.jpeg.asset.json";
-import fDesertRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58.jpeg.asset.json";
-import fOleanderHand from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.59.jpeg.asset.json";
+import fDaisy from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.53.jpg";
+import fBougainvillea from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.54.jpg";
+import fIxoraPink from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56.jpg";
+import fIxoraPale from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_1.jpg";
+import fOleander from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_2.jpg";
+import fRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.56_3.jpg";
+import fIxoraRed from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.55.jpg";
+import fJatropha from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.55_1.jpg";
+import fWhiteRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57_1.jpg";
+import fLantana from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57_2.jpg";
+import fPinkRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.57.jpeg";
+import fGardenia from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_1.jpeg";
+import fPlumeria from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_2.jpeg";
+import fCanna from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58_3.jpeg";
+import fDesertRose from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.58.jpeg";
+import fOleanderHand from "../assets/flowers/WhatsApp_Image_2026-09-14_at_18.27.59.jpeg";
 
 const flowers = [
   fRose,
