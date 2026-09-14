@@ -27,7 +27,7 @@ const flowers = [
   { img: fJatropha, name: "Peregrina", note: "a rare bloom for a friend who actually gets me" },
   { img: fIxoraPink, name: "Pink Ixora", note: "soft, sweet, and hard to ignore — basically you" },
   { img: fOleander, name: "Oleander", note: "grace that turns an ordinary street into something worth sharing" },
-  { img: fIxoraPale, name: "Blush Ixora", note: "the colour of every "you're not gonna believe this" story" },
+  { img: fIxoraPale, name: "Blush Ixora", note: "the colour of every 'you're not gonna believe this' story" },
   { img: fDaisy, name: "Little Sun", note: "one small flower, one big smile — your kind of math" },
   { img: fPinkRose, name: "Pink Rose", note: "for the friend who makes distance feel smaller" },
   { img: fGardenia, name: "Gardenia", note: "quiet and lovely, like the late-night talks I actually look forward to" },
